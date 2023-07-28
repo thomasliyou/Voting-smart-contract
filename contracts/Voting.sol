@@ -101,7 +101,7 @@ contract Voting {
  * @dev Check if an address has already been voted
  * @return hasVoted_ boolean value representing if a vote has been cast
  */
-    function hasVoted(address voter) public view returns (bool hasVoted_) { //添加获取某地址是否投票的布尔值的函数
+    function hasVoted(address voter) public view returns (bool hasVoted_) {
         hasVoted_ = voters[voter].voted;
     }
 
