@@ -1,5 +1,5 @@
 # Voting Smart Contract
-
+[中文](https://github.com/thomasliyou/Voting-smart-contract/blob/main/README-CN.md)
 ---
 
 This is a voting smart contract with an admin role. When voting starts, users uthorized by admin can vote on a proposal, and each user can only vote once. After the poll is closed, any user could check the winning proposal
